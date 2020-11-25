@@ -263,7 +263,7 @@ am4core.ready(function() {
     textBullet.propertyFields.disabled = "textDisabled";
     textBullet.label.strokeOpacity = 0;
     textBullet.locationX = 1;
-    textBullet.dy = - 100;
+    textBullet.dy = -100;
     textBullet.label.textAlign = "middle";
 
     chart.scrollbarX = new am4core.Scrollbar();

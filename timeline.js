@@ -31,99 +31,44 @@ am4core.ready(function() {
     chart.dateFormatter.dateFormat = "HH";
 
     chart.data = [{
-        "category": "",
-        "start": "2019-01-10 06:00",
-        "end": "2019-01-10 06:15",
-        "color": colorSet.getIndex(15),
-        "icon": alarm,
-        "text": "Wake up!"
-    }, {
-        "category": "",
-        "start": "2019-01-10 06:15",
-        "end": "2019-01-10 06:30",
-        "color": colorSet.getIndex(14),
-        "icon": water,
-        "text": "Drink water"
-    },
-    {
-        "category": "",
-        "start": "2019-01-10 06:30",
-        "end": "2019-01-10 07:00",
-        "color": colorSet.getIndex(13),
-        "icon": exercise,
-        "text": "Exercise"
-    },
-    {
-        "category": "",
-        "start": "2019-01-10 07:00",
-        "end": "2019-01-10 07:30",
-        "color": colorSet.getIndex(12),
-        "icon": breakfast,
-        "text": "Have breakfast"
-    },
-    {
-        "category": "",
-        "start": "2019-01-10 07:30",
-        "end": "2019-01-10 08:00",
-        "color": colorSet.getIndex(11),
-        "icon": car,
-        "text": "Drive to work"
-    },
-    {
-        "category": "",
-        "start": "2019-01-10 08:00",
-        "end": "2019-01-10 17:00",
-        "color": colorSet.getIndex(10),
-        "icon": work,
-        "text": "Work"
-    },
-    {
         "category": "e",
-        "start": "2019-01-10 10:00",
-        "end": "2019-01-10 10:15",
-        "color": colorSet.getIndex(10),
-        "icon": coffee,
-        "text": "Coffee"
-    },
-    {
-        "category": "e",
-        "start": "2019-01-10 12:00",
-        "end": "2019-01-10 13:00",
+        "start": "2019-12-10 12:00",
+        "end": "2019-12-10 13:00",
         "color": colorSet.getIndex(10),
         "icon": dinner,
-        "text": "Dinner"
+        "text": "After continuing with CBT-I for a few months, Matt is now happy, healthy, and well-rested. (His wife is now in remission, too.)"
     },
     {
         "category": "e",
-        "start": "2019-10-10 14:00",
-        "end": "2019-10-10 14:15",
+        "start": "2019-09-10 14:00",
+        "end": "2019-09-10 14:15",
         "color": colorSet.getIndex(10),
         "icon": coffee,
-        "text": "Coffee"
+        "text": "Matt, only after a month of therapy, has begun to see an improvement in his sleep. "
     },
     {
         "category": "",
-        "start": "2019-09-20 17:00",
-        "end": "2019-09-20 18:00",
+        "start": "2019-08-25 17:00",
+        "end": "2019-08-25 18:00",
         "color": colorSet.getIndex(8),
         "icon": car,
-        "text": "Drive home"
+        "text": "He also seeks help for the anxiety caused by his wife’s diagnosis. (Anxiety and depression are commonly comorbid with insomnia.)"
     },
     {
         "category": "",
-        "start": "2019-09-10 18:00",
-        "end": "2019-09-10 21:30",
+        "start": "2019-08-02 18:00",
+        "end": "2019-08-02 21:30",
         "color": colorSet.getIndex(7),
         "icon": home,
-        "text": "Home!"
+        "text": "Through sleep restriction and improvements to his sleep hygiene, Matt continues to practice cognitive behavioral therapy for insomnia."
     },
     {
         "category": "e",
-        "start": "2019-08-10 19:30",
-        "end": "2019-08-10 20:30",
+        "start": "2019-07-20 19:30",
+        "end": "2019-07-20 20:30",
         "color": colorSet.getIndex(7),
         "icon": book,
-        "text": "Read a bit"
+        "text": "He visits sleep clinician Dr. Simons, who diagnoses him with insomnia and recommends cognitive behavioral therapy, which is commonly regarded as one of the best treatments for insomnia."
     },
     {
         "category": "",
@@ -131,7 +76,7 @@ am4core.ready(function() {
         "end": "2019-07-10 22:00",
         "color": colorSet.getIndex(6),
         "icon": book,
-        "text": "A good book!"
+        "text": "Sleep deprived from his struggle with insomnia, Matt almost gets in a fatal car crash and decides to seek help. (Excessive sleepiness is a key cause of car crashes in the general population.)"
     },
     {
         "category": "",
@@ -139,31 +84,31 @@ am4core.ready(function() {
         "end": "2019-06-10 22:15",
         "color": colorSet.getIndex(5),
         "icon": book,
-        "text": "Great book!"
+        "text": "Sleeping only 4-6 hours a night, Matt has accumulated a massive amount of sleep debt. He experiences lowered response time and increased variability of performance, which are common effects of chronic sleep deprivation."
     },
     {
         "category": "",
-        "start": "2019-05-10 22:15",
-        "end": "2019-05-10 23:00",
+        "start": "2019-05-20 22:15",
+        "end": "2019-05-20 23:00",
         "color": colorSet.getIndex(4),
         "icon": dance,
-        "text": "Dance!"
+        "text": "Matt adopts maladaptive behaviors (e.g. setting more time aside to sleep, getting up to watch TV, taking on more night shifts), which perpetuates his insomnia. The ongoing stress of his wife’s treatment also continues to worsen his sleep."
     },
     {
         "category": "",
-        "start": "2019-04-11 00:00",
-        "end": "2019-04-11 00:00",
+        "start": "2019-05-05 00:00",
+        "end": "2019-05-05 00:00",
         "color": colorSet.getIndex(3),
         "icon": book,
-        "text": "Reading!"
+        "text": "Matt begins to struggle with symptoms of insomnia. He can’t fall asleep or stay asleep. He feels like his brain can’t shut off at night. He wakes often during the night, and when he does sleep, he wakes feeling unrested. He experiences mood swings and is more irritable than normal. He struggles to stay awake during the day."
     },
     {
         "category": "",
-        "start": "2019-03-11 00:00",
-        "end": "2019-03-11 01:00",
+        "start": "2019-04-12 00:00",
+        "end": "2019-04-12 00:00",
         "color": colorSet.getIndex(2),
         "icon": water,
-        "text": "Water..."
+        "text": "Like many who develop chronic insomnia, Matt experiences a stressful incident, in this case his wife’s cancer diagnosis, which serves as the precipitating event for his insomnia."
     },
     {
         "category": "",
@@ -171,11 +116,12 @@ am4core.ready(function() {
         "end": "2019-03-11 01:00",
         "color": colorSet.getIndex(1),
         "icon": bed,
-        "text": "Bye bye"
+        "text": "Over 65 years old, obese, and with a family history of insomnia, Matt has several predisposing factors of insomnia, which makes him more at risk for developing chronic insomnia."
     }];
 
     chart.fontSize = 16;
     chart.tooltipContainer.fontSize = 16;
+    
 
     var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
     categoryAxis.dataFields.category = "category";
@@ -244,6 +190,8 @@ am4core.ready(function() {
     imageBullet1.tooltipText = "{text}";
 
     series.tooltip.pointerOrientation = "up";
+    series.tooltip.label.maxWidth = 300;
+    series.tooltip.label.wrap = true;
 
     imageBullet1.background.adapter.add("pointerAngle", (value, target) => {
         if (target.dataItem) {

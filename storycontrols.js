@@ -20,7 +20,7 @@ function changePages(event)
         i++;
         window.scrollTo(0, 0);
         storyParts[i].style.display = "block";
-        if (i == storyParts.length)
+        if (i + 1 == storyParts.length)
         {
             nextButton.style.display = "none";
         }
@@ -55,7 +55,7 @@ function nextPage()
         i++;
         window.scrollTo(0, 0);
         storyParts[i].style.display = "block";
-        if (i == storyParts.length)
+        if (i + 1 == storyParts.length)
         {
             nextButton.style.display = "none";
         }

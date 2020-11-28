@@ -55,77 +55,14 @@ am4core.ready(function() {
     chart.dateFormatter.inputDateFormat = "yyyy-MM-dd HH:mm";
     chart.dateFormatter.dateFormat = "HH";
 
-    chart.data = [{
-        "category": "e",
-        "start": "2019-12-10 12:00",
-        "end": "2019-12-10 13:00",
-        "color": colorSet.getIndex(10),
-        "icon": sleep_well,
-        "text": "After continuing with CBT-I for a few months, Matt is now happy, healthy, and well-rested. (His wife is now in remission, too.)"
-    },
-    {
-        "category": "e",
-        "start": "2019-09-10 14:00",
-        "end": "2019-09-10 14:15",
-        "color": colorSet.getIndex(10),
-        "icon": moon_sleep,
-        "text": "Matt, only after a month of therapy, has begun to see an improvement in his sleep. "
-    },
+    chart.data = [
     {
         "category": "",
-        "start": "2019-08-25 17:00",
-        "end": "2019-08-25 18:00",
-        "color": colorSet.getIndex(8),
-        "icon": anxiety,
-        "text": "He also seeks help for the anxiety caused by his wife’s diagnosis. (Anxiety and depression are commonly comorbid with insomnia.)"
-    },
-    {
-        "category": "",
-        "start": "2019-08-02 18:00",
-        "end": "2019-08-02 21:30",
-        "color": colorSet.getIndex(7),
-        "icon": cbti,
-        "text": "Through sleep restriction and improvements to his sleep hygiene, Matt continues to practice cognitive behavioral therapy for insomnia."
-    },
-    {
-        "category": "e",
-        "start": "2019-07-20 19:30",
-        "end": "2019-07-20 20:30",
-        "color": colorSet.getIndex(7),
-        "icon": doctor,
-        "text": "He visits sleep clinician Dr. Simons, who diagnoses him with insomnia and recommends cognitive behavioral therapy, which is commonly regarded as one of the best treatments for insomnia."
-    },
-    {
-        "category": "",
-        "start": "2019-07-10 21:30",
-        "end": "2019-07-10 22:00",
-        "color": colorSet.getIndex(6),
-        "icon": car_crash,
-        "text": "Sleep deprived from his struggle with insomnia, Matt almost gets in a fatal car crash and decides to seek help. (Excessive sleepiness is a key cause of car crashes in the general population.)"
-    },
-    {
-        "category": "",
-        "start": "2019-06-10 22:00",
-        "end": "2019-06-10 22:15",
-        "color": colorSet.getIndex(5),
-        "icon": sleep_deprived,
-        "text": "Sleeping only 4-6 hours a night, Matt has accumulated a massive amount of sleep debt. He experiences lowered response time and increased variability of performance, which are common effects of chronic sleep deprivation."
-    },
-    {
-        "category": "",
-        "start": "2019-05-20 22:15",
-        "end": "2019-05-20 23:00",
-        "color": colorSet.getIndex(4),
-        "icon": tv,
-        "text": "Matt adopts maladaptive behaviors (e.g. setting more time aside to sleep, getting up to watch TV, taking on more night shifts), which perpetuates his insomnia. The ongoing stress of his wife’s treatment also continues to worsen his sleep."
-    },
-    {
-        "category": "",
-        "start": "2019-05-05 00:00",
-        "end": "2019-05-05 00:00",
-        "color": colorSet.getIndex(3),
-        "icon": insomnia_bed,
-        "text": "Matt begins to struggle with symptoms of insomnia. He can’t fall asleep or stay asleep. He feels like his brain can’t shut off at night. He wakes often during the night, and when he does sleep, he wakes feeling unrested. He experiences mood swings and is more irritable than normal. He struggles to stay awake during the day."
+        "start": "2019-03-11 01:00",
+        "end": "2019-03-11 01:00",
+        "color": colorSet.getIndex(1),
+        "icon": family,
+        "text": "Over 65 years old, obese, and with a family history of insomnia, Matt has several predisposing factors of insomnia, which makes him more at risk for developing chronic insomnia."
     },
     {
         "category": "",
@@ -137,11 +74,75 @@ am4core.ready(function() {
     },
     {
         "category": "",
-        "start": "2019-03-11 01:00",
-        "end": "2019-03-11 01:00",
-        "color": colorSet.getIndex(1),
-        "icon": family,
-        "text": "Over 65 years old, obese, and with a family history of insomnia, Matt has several predisposing factors of insomnia, which makes him more at risk for developing chronic insomnia."
+        "start": "2019-05-05 00:00",
+        "end": "2019-05-05 00:00",
+        "color": colorSet.getIndex(3),
+        "icon": insomnia_bed,
+        "text": "Matt begins to struggle with symptoms of insomnia. He can’t fall asleep or stay asleep. He feels like his brain can’t shut off at night. He wakes often during the night, and when he does sleep, he wakes feeling unrested. He experiences mood swings and is more irritable than normal. He struggles to stay awake during the day."
+    },
+    {
+        "category": "",
+        "start": "2019-05-20 22:15",
+        "end": "2019-05-20 23:00",
+        "color": colorSet.getIndex(4),
+        "icon": tv,
+        "text": "Matt adopts maladaptive behaviors (e.g. setting more time aside to sleep, getting up to watch TV, taking on more night shifts), which perpetuates his insomnia. The ongoing stress of his wife’s treatment also continues to worsen his sleep."
+    },
+    {
+        "category": "",
+        "start": "2019-06-10 22:00",
+        "end": "2019-06-10 22:15",
+        "color": colorSet.getIndex(5),
+        "icon": sleep_deprived,
+        "text": "Sleeping only 4-6 hours a night, Matt has accumulated a massive amount of sleep debt. He experiences lowered response time and increased variability of performance, which are common effects of chronic sleep deprivation."
+    },
+    {
+        "category": "",
+        "start": "2019-07-10 21:30",
+        "end": "2019-07-10 22:00",
+        "color": colorSet.getIndex(6),
+        "icon": car_crash,
+        "text": "Sleep deprived from his struggle with insomnia, Matt almost gets in a fatal car crash and decides to seek help. (Excessive sleepiness is a key cause of car crashes in the general population.)"
+    },
+    {
+        "category": "e",
+        "start": "2019-07-20 19:30",
+        "end": "2019-07-20 20:30",
+        "color": colorSet.getIndex(7),
+        "icon": doctor,
+        "text": "He visits sleep clinician Dr. Simons, who diagnoses him with insomnia and recommends cognitive behavioral therapy, which is commonly regarded as one of the best treatments for insomnia."
+    },
+    {
+        "category": "",
+        "start": "2019-08-02 18:00",
+        "end": "2019-08-02 21:30",
+        "color": colorSet.getIndex(7),
+        "icon": cbti,
+        "text": "Through sleep restriction and improvements to his sleep hygiene, Matt continues to practice cognitive behavioral therapy for insomnia."
+    },
+    {
+        "category": "",
+        "start": "2019-08-25 17:00",
+        "end": "2019-08-25 18:00",
+        "color": colorSet.getIndex(8),
+        "icon": anxiety,
+        "text": "He also seeks help for the anxiety caused by his wife’s diagnosis. (Anxiety and depression are commonly comorbid with insomnia.)"
+    },
+    {
+        "category": "e",
+        "start": "2019-09-10 14:00",
+        "end": "2019-09-10 14:15",
+        "color": colorSet.getIndex(10),
+        "icon": moon_sleep,
+        "text": "Matt, only after a month of therapy, has begun to see an improvement in his sleep. "
+    },
+    {
+        "category": "e",
+        "start": "2019-12-10 12:00",
+        "end": "2019-12-10 13:00",
+        "color": colorSet.getIndex(10),
+        "icon": sleep_well,
+        "text": "After continuing with CBT-I for a few months, Matt is now happy, healthy, and well-rested. (His wife is now in remission, too.)"
     }];
 
     chart.fontSize = 16;

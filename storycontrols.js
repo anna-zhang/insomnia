@@ -14,11 +14,31 @@ function changePages(event)
         storyParts[i].style.display = "none";
         i++;
         storyParts[i].style.display = "block";
-    
       }
       if (i >= 1 && event.key == "ArrowLeft"){
         storyParts[i].style.display = "none";
         i--;
         storyParts[i].style.display = "block";
       }
+}
+
+function nextPage()
+{
+    if (i + 1 < storyParts.length)
+    {
+        storyParts[i].style.display = "none";
+        i++;
+        storyParts[i].style.display = "block";
+    
+    }
+}
+
+function prevPage()
+{
+    if (i >= 1)
+    {
+        storyParts[i].style.display = "none";
+        i--;
+        storyParts[i].style.display = "block";
+    }
 }

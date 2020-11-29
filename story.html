@@ -25,6 +25,20 @@
             {
                 font-family: 'Open Sans', sans-serif;
             }
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+            @media only screen and (min-width: 1200px) {
+                #story {
+                    margin-left: 20%;
+                    margin-right: 20%;
+                }
+            }
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+            @media only screen and (max-width: 1200px) {
+                #story {
+                    margin-left: 10%;
+                    margin-right: 10%;
+                }
+            }
         </style>
         <!-- favicon by favicon.io -->
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -37,7 +51,7 @@
             <h1 style="color: white;">A Drive to Sleep</h1>
             <a href="index.html" rel="noopener noreferrer" style="color: white;">Timeline of Matt's Story</a>
         </div>
-        <div id="story" style="margin-left: 10%; margin-right: 10%; margin-top: 2em;">
+        <div id="story" style="margin-top: 2em;">
             <div id="part-1" style="display: block;">
                 <p>“Mr. Turner? Matt Turner?”</p>
                 <p>
@@ -125,7 +139,7 @@
                     When Matt woke up feeling well-rested one frosty December morning after a full eight hours of sleep, he turned and kissed Sarah on the cheek. Her treatment had been going well, and his sleep treatment had, too. She might even be entering remission soon. He knew, for the first time in a long while, that everything would be okay.
                 </p>
             </div>
-            <div id="story-nav">
+            <div id="story-nav" style="padding-top: 2.5%; padding-bottom: 10%;">
                 <button id="left-button" onclick="prevPage()" style="float: left; display: none;">Previous</button>
                 <button id="right-button" onclick="nextPage()" style="float: right;">Next</button>
             </div>

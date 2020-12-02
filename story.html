@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Matt's Story</title>
+        <title>Insomnia | Story</title>
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -16,14 +16,24 @@
                 background: #0E161A;
                 font-family: 'Roboto', sans-serif;
                 color: #DFE1E2;
-                
+                line-height: 1.6;
+            }
+            p, button 
+            {
+                font-size: 1.1rem;
             }
             a {
                 color: #FFDE5C;
+                font-size: 1.1rem;
             }
             tspan
             {
                 font-family: 'Open Sans', sans-serif;
+            }
+            footer {
+                color: #DFE1E2;
+                line-height: 0.5rem;
+                font-size: 1.1rem;
             }
             /* Extra large devices (large laptops and desktops, 1200px and up) */
             @media only screen and (min-width: 1200px) {
@@ -48,7 +58,7 @@
     </head>
     <body onkeydown="changePages(event)">
         <div id="menu" style="padding-top: 1.5%; text-align: center;">
-            <h1 style="color: #DFE1E2; margin-bottom: 0.75em;">A Drive to Sleep</h1>
+            <h1 style="color: #DFE1E2; margin-bottom: 0.5em;">A Drive to Sleep</h1>
             <a href="index.html" rel="noopener noreferrer" style="color: #DFE1E2; border: #2F4858; border-width: 0.2rem; padding: 0.5rem 0.75rem; border-style: solid; border-radius: 0.75rem; text-decoration: none; background-color: #2F4858;">Timeline of Matt's Story</a>
         </div>
         <div id="story" style="margin-top: 2em;">
@@ -145,6 +155,11 @@
             
             </div>
         </div>
+        <footer style="padding-top: 1.5%; text-align: center; padding-bottom: 5%;">
+            <p>By Alexandra Galloway and Anna Zhang</p>
+            <p>Icons by <cite><a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons 8</a></cite></p>
+            <p><a href="references.html">References</a></p>
+        </footer>
         <script src="storycontrols.js"></script>
     </body>
 </html>

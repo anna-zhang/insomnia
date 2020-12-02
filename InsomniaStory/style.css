@@ -131,10 +131,7 @@ h1,h2,h4,h5,h6 {
 				}
 
  	#timeline1  {
-		width: 800px;
-		height: 350px;
 		overflow: hidden;
-		margin: 20px auto;
 		position: relative;
 		background: url('dot.gif') left 45px repeat-x;
 	}

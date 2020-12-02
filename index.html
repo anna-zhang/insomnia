@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Insomnia</title>
+        <title>Insomnia | Timeline</title>
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
               height: 500px;
             }
             body {
-                background-color: black;
+                background: #2F4858;
                 font-family: 'Roboto', sans-serif;
             }
             tspan
@@ -31,17 +31,15 @@
     <body>
         <div id="menu" style="padding-top: 1.5%; text-align: center;">
             <h1 style="color: #DFE1E2; margin-bottom: 0.75em;">Insomnia</h1>
-            <a href="story.html" rel="noopener noreferrer" style="color: #DFE1E2; border: #3b3b3b; border-width: 0.2rem; padding: 0.5rem 0.75rem; border-style: solid; border-radius: 0.75rem; text-decoration: none; background-color: #3b3b3b;">Read Matt's Story</a>
+            <a href="story.html" rel="noopener noreferrer" style="color: #DFE1E2; border: #0E161A; border-width: 0.2rem; padding: 0.5rem 0.75rem; border-style: solid; border-radius: 0.75rem; text-decoration: none; background-color: #0E161A;">Read Matt's Story</a>
         </div>
-        <div id="chartdiv"></div>
-
-        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
-        <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
-        <script src="https://cdn.amcharts.com/lib/4/plugins/timeline.js"></script>
-        <script src="https://cdn.amcharts.com/lib/4/plugins/bullets.js"></script>
-        <script src="https://cdn.amcharts.com/lib/4/themes/dark.js"></script>
-        <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-        <script src="timeline.js"></script>
+        <br/>
+        <br/>
+        <br/>
+        <div id="chartdiv">
+            <object type="text/html" data="insomnia_story.html" width="100%" height="100%" style="overflow:auto;">
+            </object>
+        </div>
     </body>
 </html>
 

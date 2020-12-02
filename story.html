@@ -13,13 +13,13 @@
               max-width: 100%;
             }
             body {
-                background-color: black;
+                background: #0E161A;
                 font-family: 'Roboto', sans-serif;
                 color: #DFE1E2;
                 
             }
             a {
-                color: #f2938c;
+                color: #FFDE5C;
             }
             tspan
             {
@@ -49,7 +49,7 @@
     <body onkeydown="changePages(event)">
         <div id="menu" style="padding-top: 1.5%; text-align: center;">
             <h1 style="color: #DFE1E2; margin-bottom: 0.75em;">A Drive to Sleep</h1>
-            <a href="index.html" rel="noopener noreferrer" style="color: #DFE1E2; border: #3b3b3b; border-width: 0.2rem; padding: 0.5rem 0.75rem; border-style: solid; border-radius: 0.75rem; text-decoration: none; background-color: #3b3b3b;">Timeline of Matt's Story</a>
+            <a href="index.html" rel="noopener noreferrer" style="color: #DFE1E2; border: #2F4858; border-width: 0.2rem; padding: 0.5rem 0.75rem; border-style: solid; border-radius: 0.75rem; text-decoration: none; background-color: #2F4858;">Timeline of Matt's Story</a>
         </div>
         <div id="story" style="margin-top: 2em;">
             <div id="part-1" style="display: block;">
@@ -140,8 +140,9 @@
                 </p>
             </div>
             <div id="story-nav" style="padding-top: 2.5%; padding-bottom: 10%;">
-                <button id="left-button" onclick="prevPage()" style="float: left; display: none;">Previous</button>
-                <button id="right-button" onclick="nextPage()" style="float: right;">Next</button>
+                <button id="left-button" onclick="prevPage()" rel="noopener noreferrer" style="float: left; display:none; color: #DFE1E2; border: #2F4858; border-width: 0.2rem; padding: 0.3rem 0.75rem; border-style: solid; border-radius: 0.5rem; text-decoration: none; background-color: #2F4858;">Previous</a>           
+                <button id="right-button" onclick="nextPage()" rel="noopener noreferrer" style="float: right;color: #DFE1E2; border: #2F4858; border-width: 0.2rem; padding: 0.3rem 0.75em; border-style: solid; border-radius: 0.5rem; text-decoration: none; background-color: #2F4858;">Next</a>
+            
             </div>
         </div>
         <script src="storycontrols.js"></script>
